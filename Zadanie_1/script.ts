@@ -10,7 +10,10 @@ class InputsApp{
     constructor(){
 
     }
-    inputesValues() {
+    inputsValues() {
         this.input1 = document.querySelector(`#input1`);
+        this.input2 = document.querySelector(`#input1`);
+        this.input3 = document.querySelector(`#input1`);
+        this.input4 = document.querySelector(`#input1`);
     }
 }
