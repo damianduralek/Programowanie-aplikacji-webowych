@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Drumkit</title>
+</head>
+<body>
+    <div id="main">
+    <h1>Drumkit</h1>
+
+    <div class="drumkit">
+        <div class="pad pad-q">Q</div>
+        <div class="pad pad-w">W</div>
+        <div class="pad pad-e">E</div>
+        <div class="pad pad-r">R</div>
+        <div class="pad pad-t">T</div>
+        <div class="pad pad-a">A</div>
+        <div class="pad pad-s">S</div>
+        <div class="pad pad-d">D</div>
+        <div class="pad pad-f">F</div>   
+    </div> 
+
+    <div class="buttons-container">
+        <button id="recordChannel1" class="button record">Record channel 1</button>
+        <button id="playChannel1" class="button play">Play channel 1</button>
+    </div>
+
+    <div class="buttons-container">
+        <button id="recordChannel2" class="button record">Record channel 2</button>
+        <button id="playChannel2" class="button play">Play channel 2</button>
+    </div>
+
+    <div class="buttons-container">
+        <button id="recordChannel3" class="button record">Record channel 3</button>
+        <button id="playChannel3" class="button play">Play channel 3</button>
+    </div>
+
+    <div class="buttons-container">
+        <button id="recordChannel4" class="button record">Record channel 4</button>
+        <button id="playChannel4" class="button play">Play channel 4</button>
+    </div>   
+    <div class="buttons-container">
+        <button id="playAllChannels" class="button play-all">Play all channel</button>
+    </div>
+
+    <audio src="sounds/boom.wav" data-sound="boom"></audio>
+    <audio src="sounds/clap.wav" data-sound="clap"></audio>
+    <audio src="sounds/hihat.wav" data-sound="hihat"></audio>
+    <audio src="sounds/kick.wav" data-sound="kick"></audio>
+    <audio src="sounds/openhat.wav" data-sound="openhat"></audio>
+    <audio src="sounds/ride.wav" data-sound="ride"></audio>
+    <audio src="sounds/snare.wav" data-sound="snare"></audio>
+    <audio src="sounds/tink.wav" data-sound="tink"></audio>
+    <audio src="sounds/tom.wav" data-sound="tom"></audio>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
