@@ -1,0 +1,15 @@
+.main{
+    padding:10px;
+    margin:0 auto;
+    text-align:center;
+    width:40%;
+    border:black 2px solid;
+}
+.menu{
+    margin:30px;
+    padding:10px;
+    border:black 2px solid;
+}
+.data{
+    margin:2px 5px;
+}
